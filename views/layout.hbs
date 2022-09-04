@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="hidden" hidden>
+        <li><a href="/">Home</a></li>
+        {{!-- <li><a href="/about">About</a></li> --}}
+        <li><a href="/article">The Muck</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="mainContainer">
+      <header>
+        <img src="./images/mrx-logo.png" alt="Mr. X Logo" class="hidden" hidden />
+        <div>
+          <h1 class="hidden" hidden >All the Muck</h1>
+          <h1 class="hidden" hidden >That's Fit To Rake</h1>
+        </div>
+      </header>
+      <section id="section1">
+        <div class="picture-container">
+          <div id="picture"></div>
+        </div>
+        
+    {{{body}}}
+      </section>
+    </div>
+
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
