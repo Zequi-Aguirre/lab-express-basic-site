@@ -5,7 +5,7 @@ window.addEventListener('load', () => {
 setTimeout(() => {
     const picture = document.querySelector('#picture');
     picture.style.backgroundImage = "url('../images/mrx-picture-2.jpeg')"
-}, 1500);
+}, Math.floor(Math.random() * 1500));
 
 
 
